@@ -3,7 +3,7 @@
 A browser-based drawing grid built as part of [The Odin Project](https://www.theodinproject.com/) JavaScript curriculum, with a few custom twists beyond the base assignment.
 
 ## Live Demo
-  t https://nightfury18-cyber.github.io/The-Odin-Project---Etch-a-Sketch/
+   https://nightfury18-cyber.github.io/The-Odin-Project---Etch-a-Sketch/
   
 ## How to Use
 
