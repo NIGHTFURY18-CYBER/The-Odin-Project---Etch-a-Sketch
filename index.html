@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sketch Pad</title>
+  <link rel="stylesheet" href="Style.css">
+  
+</head>
+<body>
+  <h1>Sketch Pad</h1>
+
+  <div class="controls">
+    <label>
+      Color
+      <input type="color" id="color-picker" value="#4361ee">
+    </label>
+
+    <label>
+      Grid Size: <span id="size-label">16</span>
+      <input type="range" id="size-slider" min="4" max="64" value="16">
+    </label>
+
+    <label class="checkbox-label">
+      <input type="checkbox" id="shade-mode">
+      Progressive shading
+    </label>
+
+    <button id="clear-btn">Clear</button>
+  </div>
+
+  <div id="grid-container"></div>
+
+  <script src="Script.js"></script>
+</body>
+</html>
